@@ -25,6 +25,7 @@ bucket_name = "line-harness-images"
 [triggers]
 crons = ["*/5 * * * *"]
 
+
 # ═══════════════════════════════════════════════════════════════
 # 本番環境 (aiagent.mini@)
 # 使い方: npx wrangler deploy --env production --name your-worker-name
